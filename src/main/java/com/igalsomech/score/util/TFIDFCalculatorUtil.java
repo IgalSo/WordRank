@@ -1,5 +1,9 @@
 package com.igalsomech.score.util;
 
+/**
+ * Utility used for calculating tf idf weights.
+ * See more: https://en.wikipedia.org/wiki/Tf–idf
+ */
 public class TFIDFCalculatorUtil {
 
     public static double df(double termOccurrencesInDocumentCount, double totalTermsInDocumentCount) {
